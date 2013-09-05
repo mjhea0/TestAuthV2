@@ -1,0 +1,74 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require_self
+ *= require_tree .
+*/
+.brand {
+  float: left;
+  padding-right: 8px;
+}
+ul.nav {
+  list-style: underline;
+  margin: 0 0 2em;
+  padding: 0;
+  background-color: #000;
+  color: #FFF;
+}
+ul.nav li {
+  display: inline;
+}
+#flash_notice, #flash_alert {
+  padding: 5px 8px;
+  margin: 10px 0;
+}
+#flash_notice {
+  background-color: #CFC;
+  border: solid 1px #6C6;
+}
+#flash_alert {
+  background-color: #FCC;
+  border: solid 1px #C66;
+}
+
+label {
+margin-bottom: -15px;
+}
+
+h4 {
+  font-family: Georgia, serif;
+  color: #000;
+  font-size: 18px;
+}
+
+a {
+text-decoration: none;
+color: #000;
+  text-shadow: 0 0px 0 #ffffff;
+  }
+
+.placeholder {color: #999;}
+
+.navbar-inner {
+  background-image: linear-gradient(to bottom, #000000, #000000); !important;
+  }
+.navbar .brand{
+  color: #FFF; !important;
+  text-shadow: 0 0px 0 #ffffff;
+  }
+
+.navbar .nav>li>a  {
+    color: #FFF; !important;
+  text-shadow: 0 0px 0 #ffffff; !important;
+  font-size: 16px;
+  }
+
+.navbar:hover {
+    text-decoration: underline; !important;  }
