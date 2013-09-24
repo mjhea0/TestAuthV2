@@ -25,14 +25,14 @@ color: #000;
 	}
 .navbar .brand{
 	color: #FFF; !important;
-	text-shadow: 0 0px 0 #ffffff;
+	font-size: 24px;
+	text-shadow: 0 0px 0 #000;
 	}
 
 .navbar .nav>li>a  {
 		color: #FFF; !important;
-	text-shadow: 0 0px 0 #ffffff;
+	text-shadow: 0 0px 0 #000;
 	}
->>>>>>> a4034a40e1bd4f980d1ffb4f08e036220bab9e47
 
 .navbar .nav>li:hover {
 	 	color: #333;

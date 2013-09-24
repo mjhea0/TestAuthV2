@@ -22,10 +22,9 @@ gem "binding_of_caller", ">= 0.7.1", :group => :development, :platforms => [:mri
 
 gem "therubyracer"
 gem "less-rails" #Sprockets (what Rails 3.1 uses for its asset pipeline) supports LESS
-<<<<<<< HEAD
+
 gem "twitter-bootstrap-rails"
 gem 'paperclip', '~> 3.0'
 gem 'stripe', '~> 1.8.3'
-=======
+
 gem "twitter-bootstrap-rails"
->>>>>>> a4034a40e1bd4f980d1ffb4f08e036220bab9e47

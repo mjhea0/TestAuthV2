@@ -1,14 +1,16 @@
 Rails3DeviseRspecCucumber::Application.routes.draw do
  
 
-  resources :contributions
+  get "dashboard/about"
 
+  get "dashboard/contact"
 
-  resources :donors
+  get "dashboard/FAQs"
+
 
 
   authenticated :user do
-    root :to => 'donors#index'
+    root :to => 'dashboard#about'
   end
   root :to => "home#index"
   devise_for :users
