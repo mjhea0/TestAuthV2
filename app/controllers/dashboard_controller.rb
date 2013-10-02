@@ -1,5 +1,6 @@
 class DashboardController < ApplicationController
   def about
+ 
   end
 
   def contact
