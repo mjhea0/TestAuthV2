@@ -57,6 +57,9 @@
               <li> <%= link_to 'Logout', destroy_user_session_path, :method=>'delete' %></li>
               <li> <%= link_to 'Edit Account', edit_user_registration_path %></li>
               <li><%= link_to "User List", "users#edit" %></li>
+              <li><%= link_to "About", "../dashboard/about" %></li>
+              <li><%= link_to "FAQ's", "../dashboard/FAQs" %></li>
+                <li><%= link_to "Contact", "../dashboard/contact" %></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
@@ -72,9 +75,9 @@
 
       </div><!--/row-->
 
-      <footer>
+      <div class="footer">
         <p>&copy; <a href="http://www.about.me/dantashman" target="_blank">Dan Tashman 2013</p>
-      </footer>
+      </div>
 
     </div> <!-- /container -->
 
